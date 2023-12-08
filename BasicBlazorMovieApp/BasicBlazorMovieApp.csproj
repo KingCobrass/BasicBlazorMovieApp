@@ -8,6 +8,9 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
+	  <None Update="app.yaml">
+		  <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+	  </None>
   </ItemGroup>
 
 </Project>
